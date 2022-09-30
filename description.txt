@@ -1,0 +1,19 @@
+﻿A vehicle management system for a company that owns some equipments(i.e. trucks)
+Company is basically renting trucks, 3 models are made to store records;
+* Company: stores info of employees (drivers)
+* Trucks: stores info of truck details 
+* AssignTruck: strores info that which truck is assigned to which driver by storing their ids
+
+
+3 kind of users;
+* Owner: owns company
+* Admin: manage system i.e. assign trucks to drivers
+* Truck driver: drives truck
+
+
+APIs created:
+* API for owner & admin to perform crud operations (truck driver won’t have these rights)
+* API to assign trucks to drivers(constraint: driver can drive one vehicle at a time)
+
+
+Info related to trucks is scrapped from a website and then saved in db
